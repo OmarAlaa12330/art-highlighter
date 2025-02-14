@@ -1,0 +1,31 @@
+{
+  "name": "art-syntax-highlighter",
+  "displayName": "ART Syntax Highlighter",
+  "description": "Syntax highlighter for CS3480 Software Language Engineering, a Royal Holloway module lead by Dr. Adrian Johnstone.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "art",
+      "aliases": ["art", "art"],
+      "extensions": [".art"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "art",
+      "scopeName": "source.art",
+      "path": "./syntaxes/art.tmLanguage.json"
+    }],
+    "themes": [
+        {
+            "label": "ART Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/art-theme-colour.json"
+        }]
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "name": "ART Theme",
+    "type": "dark",
+    "colors": {
+        "editor.foreground": "#D4D4D4",
+        "editor.background": "#1E1E1E"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#00FF00",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "comment.block.art",
+            "settings": {
+                "foreground": "#00FF00",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "comment.line.art",
+            "settings": {
+                "foreground": "#00FF00",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "support.function.builtin.art",
+            "settings": {
+                "foreground": "#FF5733",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "entity.name.function.art",
+            "settings": {
+                "foreground": "#FFD700",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "variable.art",
+            "settings": {
+                "foreground": "#00BFFF"
+            }
+        },
+        {
+            "scope": "keyword.directive.art",
+            "settings": {
+                "foreground": "#A020F0",
+                "fontStyle": "bold"
+            }
+        }
+        
+    ]
+}
