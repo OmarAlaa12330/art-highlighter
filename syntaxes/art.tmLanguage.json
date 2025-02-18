@@ -10,7 +10,8 @@
         { "include": "#directives" },
 		{ "include": "#builtins" },
 		{ "include": "#variables" },
-		{ "include": "#userfunctions" }
+		{ "include": "#userfunctions" },
+        { "include": "#embeddedJava" }
     ],
     "repository": {
         "keywords": {
@@ -94,7 +95,22 @@
 					"match": "\\b[a-zA-Z_]\\w*\\s*(?=\\()"
 				}
 			]
-		}
+		},
+        "embeddedJava": {
+            "patterns": [
+                {
+                    "name" : "meta.embedded.java.art",
+                    "begin": "!!",
+                    "end" : "!!",
+                    "contentName" : "source.java",
+                    "patterns": [
+                        {
+                            "include": "source.java"
+                        }
+                    ]
+                }
+            ]
+        }
 				
     },
     "scopeName": "source.art"
