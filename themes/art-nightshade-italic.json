@@ -1,0 +1,69 @@
+{
+    "name": "ART Nightshade Italic",
+    "type": "dark",
+    "colors": {
+        "editor.foreground": "#ABB2BF",
+        "editor.background": "#282C34"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment.line.art",
+            "settings": {
+                "foreground": "#7F848E",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "comment.block.art",
+            "settings": {
+                "foreground": "#7F848E",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "string.quoted.double.art",
+            "settings": {
+                "foreground": "#98C379"
+            }
+        },
+        {
+            "scope": "constant.numeric.art",
+            "settings": {
+                "foreground": "#D19A66"
+            }
+        },
+        {
+            "scope": "entity.name.function.art",
+            "settings": {
+                "foreground": "#61AFEF",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": "support.function.builtin.art",
+            "settings": {
+                "foreground": "#E06C75",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": "variable.art",
+            "settings": {
+                "foreground": "#E5C07B"
+            }
+        },
+        {
+            "scope": "keyword.directive.art",
+            "settings": {
+                "foreground": "#C678DD",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "scope": "keyword.operator.art",
+            "settings": {
+                "foreground": "#56B6C2"
+            }
+        }
+    ]
+}

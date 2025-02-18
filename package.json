@@ -9,6 +9,9 @@
   "categories": [
     "Programming Languages"
   ],
+  "scripts": {
+    "watch" : "node ."
+  },
   "contributes": {
     "languages": [{
       "id": "art",
@@ -23,9 +26,15 @@
     }],
     "themes": [
         {
-            "label": "ART Theme",
+            "label": "ART Nightshade",
             "uiTheme": "vs-dark",
-            "path": "./themes/art-theme-colour.json"
-        }]
+            "path": "./themes/art-nightshade.json"
+        },
+        {
+            "label": "ART Nightshade Italic",
+            "uiTheme": "vs-dark",
+            "path": "./themes/art-nightshade-italic.json"
+        }
+    ]
   }
 }
