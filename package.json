@@ -49,6 +49,16 @@
           "label": "ART Nord",
           "uiTheme": "vs-dark",
           "path": "./themes/art-nord-theme.json"
+        },
+        {
+          "label": "ART Rosé Pine Dawn",
+          "uiTheme": "vs-dark",
+          "path": "./themes/art-rose-pine-dawn.json"
+        },
+        {
+            "label": "ART Rosé Pine Moon",
+            "uiTheme": "vs-dark",
+            "path": "./themes/art-rose-pine-moon.json"
         }
     ]
   }

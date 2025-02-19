@@ -1,0 +1,121 @@
+{
+    "name": "ART Rosé Pine Moon",
+    "type": "dark",
+    "colors": {
+        "editor.foreground": "#e0def4",
+        "editor.background": "#232136",
+        "editorCursor.foreground": "#6e6a86",
+        "editor.selectionBackground": "#817c9c26",
+        "editor.lineHighlightBackground": "#817c9c14",
+        "editorWhitespace.foreground": "#6e6a86",
+        "editorIndentGuide.background": "#817c9c4d",
+        "editorIndentGuide.activeBackground": "#6e6a86"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#6e6a86",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#f6c177"
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#ea9a97"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#3e8fb0"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#ea9a97"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#e0def4"
+            }
+        },
+        {
+            "scope": "support.function",
+            "settings": {
+                "foreground": "#9ccfd8"
+            }
+        },
+        {
+            "scope": "meta.embedded.java.art",
+            "settings": {
+                "foreground": "#c4a7e7",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "source.java keyword.control",
+            "settings": {
+                "foreground": "#ea9a97"
+            }
+        },
+        {
+            "scope": "source.java storage.type",
+            "settings": {
+                "foreground": "#9ccfd8"
+            }
+        },
+        {
+            "scope": "source.java support.function",
+            "settings": {
+                "foreground": "#f6c177"
+            }
+        },
+        {
+            "scope": "keyword.operator.art",
+            "settings": {
+                "foreground": "#eb6f92"
+            }
+        },
+        {
+            "scope": "keyword.directive.art",
+            "settings": {
+                "foreground": "#c4a7e7",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#c4a7e7"
+            }
+        },
+        {
+            "scope": "entity.name.type",
+            "settings": {
+                "foreground": "#9ccfd8"
+            }
+        },
+        {
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#3e8fb0"
+            }
+        },
+        {
+            "scope": "support.constant",
+            "settings": {
+                "foreground": "#f6c177"
+            }
+        }
+    ]
+}
