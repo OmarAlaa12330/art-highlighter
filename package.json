@@ -44,6 +44,11 @@
           "label": "ART Forest Dark",
           "uiTheme": "vs-dark",
           "path": "./themes/art-forest-dark.json"
+        },
+        {
+          "label": "ART Nord",
+          "uiTheme": "vs-dark",
+          "path": "./themes/art-nord-theme.json"
         }
     ]
   }

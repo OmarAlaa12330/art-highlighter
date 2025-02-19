@@ -1,0 +1,125 @@
+{
+  "name": "ART Nord",
+  "type": "vs-dark",
+  "colors": {
+    "editor.foreground": "#D8DEE9",
+    "editor.background": "#2E3440",
+    "editorCursor.foreground": "#D8DEE9",
+    "editor.selectionBackground": "#434C5E",
+    "editor.lineHighlightBackground": "#3B4252",
+    "editorWhitespace.foreground": "#4C566A",
+    "editorIndentGuide.background": "#4C566A",
+    "editorIndentGuide.activeBackground": "#88C0D0"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment.line.art",
+      "settings": {
+        "foreground": "#616E88",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "comment.block.art",
+      "settings": {
+        "foreground": "#616E88",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string.quoted.double.art",
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+    {
+      "scope": "constant.numeric.art",
+      "settings": {
+        "foreground": "#B48EAD"
+      }
+    },
+    {
+      "scope": "entity.name.function.art",
+      "settings": {
+        "foreground": "#88C0D0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "support.function.builtin.art",
+      "settings": {
+        "foreground": "#81A1C1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable.art",
+      "settings": {
+        "foreground": "#EBCB8B"
+      }
+    },
+    {
+      "scope": "keyword.control.art",
+      "settings": {
+        "foreground": "#81A1C1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.directive.art",
+      "settings": {
+        "foreground": "#81A1C1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.operator.art",
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "scope": "meta.embedded.java.art",
+      "settings": {
+        "foreground": "#EBCB8B"
+      }
+    },
+    {
+      "scope": "entity.name.type.art",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.art",
+      "settings": {
+        "foreground": "#88C0D0"
+      }
+    },
+    {
+      "scope": "markup.bold.art",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic.art",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword.other.grammar.art",
+      "settings": {
+        "foreground": "#5E81AC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.rule.art",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    }
+  ]
+}
