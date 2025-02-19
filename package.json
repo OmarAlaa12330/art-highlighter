@@ -1,10 +1,15 @@
 {
   "name": "art-syntax-highlighter",
+  "publisher": "omar-dev", 
   "displayName": "ART Syntax Highlighter",
   "description": "Syntax highlighter for CS3480 Software Language Engineering, a Royal Holloway module lead by Dr. Adrian Johnstone.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/OmarAlaa12330/art-highlighter.git"
   },
   "categories": [
     "Programming Languages"
