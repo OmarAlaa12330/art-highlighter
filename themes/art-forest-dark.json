@@ -1,0 +1,85 @@
+{
+    "name": "ART Forest Dark",
+    "type": "dark",
+    "colors": {
+      "editor.foreground": "#d3c6aa",
+      "editor.background": "#2d353b",
+      "editorCursor.foreground": "#d3c6aa",
+      "editor.selectionBackground": "#475258c0",
+      "editor.lineHighlightBackground": "#3d484d90",
+      "editorWhitespace.foreground": "#475258",
+      "editorIndentGuide.background": "#9aa79d20",
+      "editorIndentGuide.activeBackground": "#9aa79d50"
+    },
+    "tokenColors": [
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#859289",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#dbbc7f"
+        }
+      },
+      {
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#d699b6"
+        }
+      },
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#e67e80"
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#a7c080"
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#7fbbb3"
+        }
+      },
+      {
+        "scope": "support.function",
+        "settings": {
+          "foreground": "#56B6C2"
+        }
+      },
+      {
+        "scope": "meta.embedded.java.art",
+        "settings": {
+          "foreground": "#E5C07B",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "source.java keyword.control",
+        "settings": {
+          "foreground": "#C678DD"
+        }
+      },
+      {
+        "scope": "source.java storage.type",
+        "settings": {
+          "foreground": "#E5C07B"
+        }
+      },
+      {
+        "scope": "source.java support.function",
+        "settings": {
+          "foreground": "#56B6C2"
+        }
+      }
+    ]
+  }
+  

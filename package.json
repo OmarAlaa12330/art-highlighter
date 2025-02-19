@@ -34,6 +34,16 @@
             "label": "ART Nightshade Italic",
             "uiTheme": "vs-dark",
             "path": "./themes/art-nightshade-italic.json"
+        },
+        {
+            "label": "ART Forest Light",
+            "uiTheme": "vs-dark",
+            "path": "./themes/art-forest-light.json"
+        },
+        {
+          "label": "ART Forest Dark",
+          "uiTheme": "vs-dark",
+          "path": "./themes/art-forest-dark.json"
         }
     ]
   }
